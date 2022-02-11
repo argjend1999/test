@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: url(stars.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.menus {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.tale {
+  color: rgb(230, 155, 18);
+  text-align: center;
+  margin-top: 6rem;
+  margin-left: 4rem;
+  font-family: cursive;
+  font-style: italic;
+}
+.navigation {
+  display: grid;
+  grid-template-columns: 0.3fr 4fr 0.3fr 0.3fr 0.3fr;
+  text-decoration: none;
+  text-align: right;
+  align-items: center;
+  padding: 1rem 1rem;
+  color: rgb(230, 155, 18);
+}
+
+.menus,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(230, 155, 18);
+}
+.navigation:last-child {
+  padding-right: 3rem;
+}
+
+.icon {
+  width: 3rem;
+  padding-left: 2rem;
+}
+
+.home {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.home-text2 {
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  display: inline-block;
+  font-style: italic;
+  letter-spacing: 2px;
+  padding-left: 8rem !important;
+}
+.home-text {
+  color: rgb(230, 155, 18);
+  text-align: center;
+  font-size: 1.3rem;
+  display: inline-block;
+  font-style: italic;
+  letter-spacing: 2px;
+
+  padding-left: 11rem !important;
+  padding-bottom: 1rem !important;
+  font-size: 1.5rem;
+}
+.home-text,
+.home-text2 {
+  padding: 2rem;
+}
+.goku-img {
+  margin-right: 15rem;
+  width: 20rem !important;
+}
+
+button {
+  color: white;
+  margin-right: 2rem;
+  margin-top: 2rem;
+
+  cursor: pointer;
+}
+.btn-goku {
+  padding: 0.5rem;
+  background-color: rgb(230, 155, 18);
+  border: 0.4px solid white;
+}
+
+.ball {
+  width: 5rem;
+  position: absolute;
+  top: 4rem;
+}
+
+.ball:hover {
+  left: -15px;
+  margin-bottom: 5rem;
+  width: 6rem;
+}
+.goku-section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.goku-blue {
+  width: 18rem;
+  margin-left: 6rem;
+}
+
+.goku-blue-text {
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  display: inline-block;
+  font-style: italic;
+  letter-spacing: 2px;
+  margin-right: 13rem;
+  margin-left: 5rem;
+}
+
+em {
+  color: aqua;
+}
+
+.goku-imgred {
+  width: 25rem;
+  margin-left: 4rem;
+}
+.reds {
+  color: #d33768;
+}
+
+.home2 {
+  margin-bottom: 4rem;
+}
+.home2 {
+  margin-top: 5rem !important;
+}
+
+.reds1 {
+  margin-top: 3rem;
+}
+.reds {
+  margin-top: 5rem;
+}
